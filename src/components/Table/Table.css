@@ -1,0 +1,41 @@
+.table {
+  padding: 16px 18px 0 16px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.table__sort {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+  color: #9eaab4;
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 500;
+}
+
+.table__sortby {
+  cursor: pointer;
+  border-bottom: 1px dashed #9eaab4;
+  text-decoration: none;
+}
+
+.table__unit {
+  width: 927px;
+  border-collapse: collapse;
+}
+
+.table__th {
+  text-align: start;
+  width: 25%;
+  height: 52px;
+  color: #9eaab4;
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 500;
+}
+
+.active {
+  color: #323232;
+  border-bottom: 0.8px dashed #9eaab4;
+}

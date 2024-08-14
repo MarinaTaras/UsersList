@@ -1,0 +1,45 @@
+.pagination {
+  display: flex;
+  margin: 20px auto;
+}
+
+.pagination__list {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+
+.pagination__page {
+  display: flex;
+  padding: 2px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+.pagination__button {
+  text-decoration: none;
+  text-align: center;
+  color: #9eaab4;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.number {
+  width: 20px;
+}
+
+.flip {
+  width: 60px;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.border {
+  border: solid 1px #323232;
+}

@@ -1,0 +1,18 @@
+.item {
+height: 50px;
+
+}
+
+.item__td {
+  font-size: 12px;
+  color: #9eaab4;
+  border-top: solid 1px #f7f7f7;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.item--blue {
+  color: #0cb4f1;
+  font-weight: 700;
+}

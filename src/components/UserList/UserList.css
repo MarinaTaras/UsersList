@@ -1,0 +1,17 @@
+.userlist {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  height: 100%;
+  margin: 0 auto;
+  width: 961px;
+  align-items: start;
+  margin-top: 12px;
+}
+
+.userlist__title {
+  color: #323232;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}

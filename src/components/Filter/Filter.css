@@ -1,0 +1,38 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 20px;
+  margin-bottom: 72px;
+  background-color: #ffffff;
+  padding: 12px 44px 16px 16px;
+  height: 102px;
+  border-radius: 7px;
+  box-shadow: 0px 18px 15px 0px rgba(148, 148, 148, 0.15);
+}
+
+.filter__input {
+  margin-bottom: 24px;
+  background-color: #eceff0;
+  width: 901px;
+  height: 34px;
+  padding: 9px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+.filter__clean {
+  display: flex;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.filter__text {
+  color: #4f4f4f;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+}
